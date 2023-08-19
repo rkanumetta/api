@@ -16,7 +16,7 @@ restService.use(bodyParser.json());
 //Cloudant Credentials
 var Cloudant = require('cloudant');
 var me = 'rajesh92k'; // Set this to your own account
-var password = 'rajesh.rajee';
+var password = 'test';
 var cloudant = Cloudant({
     account: me,
     password: password
